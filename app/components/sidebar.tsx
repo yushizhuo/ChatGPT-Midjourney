@@ -121,7 +121,7 @@ export function SideBar(props: { className?: string }) {
       <div className={styles["sidebar-header"]}>
         <div className={styles["sidebar-title"]}>ChatGPT-优雅专属</div>
         <div className={styles["sidebar-sub-title"]}>
-          有问题联系vx：r17826660087.
+          有问题联系VX：R17826660087.
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -172,12 +172,6 @@ export function SideBar(props: { className?: string }) {
             <Link to={Path.Settings}>
               <IconButton icon={<SettingsIcon />} shadow />
             </Link>
-          </div>
-          <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="https://github.com/yushizhuo/ChatGPT-Midjourney">
-              <IconButton icon={<SettingsIcon />} shadow />
-            </a>
-          </div>
         </div>
         <div>
           <IconButton
