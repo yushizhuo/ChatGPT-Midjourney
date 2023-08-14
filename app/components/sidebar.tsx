@@ -174,8 +174,8 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            //<a href={REPO_URL} target="_blank">
-             // <IconButton icon={<SettingsIcon />} shadow />
+            <a href={REPO_URL} target="https://github.com/yushizhuo/ChatGPT-Midjourney">
+              <IconButton icon={<SettingsIcon />} shadow />
             </a>
           </div>
         </div>
